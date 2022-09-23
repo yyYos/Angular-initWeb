@@ -1,0 +1,13 @@
+$focus-visible: rgb(73, 172, 233);
+.label-add{
+    margin-right: 8px;
+}
+.inp-form{
+    height: 26px;
+    font-size: 12px;
+    &:focus-visible{
+        outline: $focus-visible auto 1px;
+        outline-offset: 0px;
+
+    }
+}

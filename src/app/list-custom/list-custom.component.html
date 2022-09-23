@@ -1,0 +1,3 @@
+<ul class="list-names" [ngClass]="{'vertical': veticalOrientation, 'horizontal': horizontalOrientation}">
+    <li *ngFor="let nombre of arrayNames" [ngClass]="['cd-li','']">{{nombre}}</li>
+</ul>

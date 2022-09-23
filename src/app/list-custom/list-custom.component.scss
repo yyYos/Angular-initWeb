@@ -1,0 +1,33 @@
+
+.list-names{
+    list-style: none;
+    padding-inline-start: 10px;
+    text-align: center;
+    .cd-li{
+        background-color: yellowgreen;
+        font-size: 12px;
+        color: black;
+        padding: 8px;
+        margin-bottom: 4px;
+        min-width: 6rem;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &.horizontal{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &.vertical{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+

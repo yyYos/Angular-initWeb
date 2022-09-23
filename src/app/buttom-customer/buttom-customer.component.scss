@@ -1,0 +1,22 @@
+$font-size-normal: 12px;
+button{
+    padding: 8px;
+    margin: 5px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: $font-size-normal;
+    &:active{
+        transform: translateY(1px);
+    }
+    &:hover{
+        opacity: 0.9;
+    }
+}
+.succes{
+    background-color: #198754;
+    color: whitesmoke;
+}
+.danger{
+    background-color: #dc3545;
+    color: whitesmoke;
+}
